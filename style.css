@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    max-width: 90%;
+}
+
+.input-wrapper {
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    width: 400px;
+}
+
+input,
+button {
+    font-weight: 500;
+    border-radius: 0.31em;
+}
+
+
+input {
+    background-color: #f0f8ff;
+    color: #333333;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-family: Digital-7;
+    border: 1px solid #ddd;
+}
+
+button {
+    font-size: 1rem;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c); 
+    box-shadow: 0 0.75rem 1.2rem rgba(0, 0, 0, 0.5); 
+    transform: translateY(-3px); 
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+.output-wrapper,
+.output-wrapper2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.output-wrapper div,
+.output-wrapper2 div {
+    height: 6.25rem;
+    width: 10.25rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 0.5rem;
+    color: #333333;
+    display: grid;
+    place-items: center;
+    padding: 1em 0;
+    box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+}
+
+span {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Digital-7;
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 1rem;
+    color: #555555;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
